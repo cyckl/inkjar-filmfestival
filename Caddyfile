@@ -1,6 +1,6 @@
 48film.maatt.fr {
 	encode zstd gzip
-	root * /srv/apps/caddy/sites/filmfestival22
+	root * /srv/apps/caddy/sites/filmfestival
 	try_files {path}.html {path}
 	file_server {
 		precompressed br
