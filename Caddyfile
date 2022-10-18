@@ -1,4 +1,4 @@
-48film.maatt.eu {
+48film.maatt.fr {
 	encode zstd gzip
 	root * /srv/apps/caddy/sites/filmfestival22
 	try_files {path}.html {path}
