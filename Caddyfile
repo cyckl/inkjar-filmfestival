@@ -1,0 +1,8 @@
+48film.maatt.eu {
+	encode zstd gzip
+	root * /srv/apps/caddy/sites/filmfestival22
+	try_files {path}.html {path}
+	file_server {
+		precompressed br
+	}
+}
