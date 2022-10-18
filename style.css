@@ -58,7 +58,7 @@ ul li {
 	padding: .2rem 0;
 }
 footer {
-	padding-top: 2rem;
+	padding: 2rem 0 1rem;
 }
 
 @media(max-width: 800px) {
