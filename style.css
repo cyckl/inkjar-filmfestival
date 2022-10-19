@@ -33,6 +33,8 @@ a:hover { color: red; }
 	font-size: 3rem;
 	margin: .2rem 0;
 }
+.img { height: 100% }
+.img > img { width: 100%; }
 .button {
 	background: #fff;
 	color: #000;
@@ -62,6 +64,10 @@ footer {
 }
 
 @media(max-width: 800px) {
-	.hero { flex-direction: column; }
+	.hero {
+		flex-direction: column-reverse;
+		justify-content: safe start;
+	}
+	.img { height: auto; }
 	.content { max-width: 85%; }
 }
