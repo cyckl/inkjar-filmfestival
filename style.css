@@ -63,7 +63,7 @@ footer {
 	padding: 2rem 0 1rem;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1200px) {
 	.hero {
 		flex-direction: column-reverse;
 		justify-content: safe start;
